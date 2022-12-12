@@ -32,7 +32,7 @@ header{
 }
 
 .logo span{
-    color: bisque;
+    color: black;
 }
 
 .navbar{
@@ -59,12 +59,12 @@ header{
 }
 
 .btn-blog:hover{
-    background: beige;
+    background: black;
 }
 
 header .navbar li a:hover{
     color: black;
-    border-bottom: 2px solid bisque;
+    border-bottom: 2px solid black;
 }
 
 .Acceuil{
@@ -88,6 +88,10 @@ header .navbar li a:hover{
     color: white;
     font-size: 3em;
     text-transform: capitalize;
+}
+
+.contenu span{
+    color: black;
 }
 
 .contenu p:nth-child(2){
@@ -172,7 +176,7 @@ section{
 }
 
 .titre-texte span{
-    color: bisque;
+    color: red;
     font-size: 1.5em;
     font-weight: 700px;
 }
