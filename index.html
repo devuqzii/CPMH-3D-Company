@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/CPMH 3D.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>CPMH 3D Company</title>
+</head>
+<body>
+<header>
+    <a href="#" class="logo"><span>C</span>PMH 3D Company</a>
+    <div class=menutoggle onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="#Acceuil" onclick="toggleMenu();">Acceuil</a></li>
+        <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+        <li><a href="#email" onclick="toggleMenu();">email</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Service</a></li>
+        <a href="#blog" class="btn-blog"onclick="toggleMenu();">RENDU FINALE</a>
+    </ul>
+</header>
+<section class="Acceuil" id="Acceuil">
+    <div class="contenu">
+        <h2>Bienvenue</h2>
+        <p>Bienvenue sur notre présentation de notre project</p>
+        <p>Crée par pierre, chamsse, hocine, matis (website par matis)</p>
+        <p>!this website is for technology special project!</p>
+        <a href="#apropos" class="btn2">A propos</a>
+    </div>
+</section>
+<section class="apropos" id="apropos"> 
+    <div class="row">
+        <div class="col50">
+            <h2 class="titre-texte"><span>A</span> propos de notre project</h2>
+            <p>TEST WEBSITE !!! BY Dev.uqzii#2555</p>
+        </div>
+        <div class="col50">
+            <div class="img">
+                <img src="./images/CPMH 3D.png" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="email" id="email">
+    <div class="titre">
+        <h2 class="titre-texte"><span>N</span>ous contactez :</h2>
+        <p>email: cpmh3dcompany@gmail.com</p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/CPMH 3D.png" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="services" id="services">
+    <div class="titre">
+        <h2 class="titre-texte"><span>A</span>vancement</h2>
+        <p>test</p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/CPMH 3D.png" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog" id="blog">
+        <div class="titre blanc">
+            <h2 class="titre-texte"><span>R</span>endu Finale</h2>
+            <p>test</p>
+        </div>
+        <div class="contenu">
+            <div class="box">
+                <div class="imbox">
+                    <img src="./images/CPMH 3D.png" alt="image">
+                </div>
+            </div>
+        </div>
+</section>
+<div class="copyright">
+    <p>©2022 <a href="#">CPMH 3D Company</a> 3D enterprise</p>
+</div>
+<script type="text/javascript">
+    window.addEventListener('scroll', function(){
+        const header =document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+
+    function toggleMenu(){
+        const toggleMenu = document.querySelector('.menutoggle');
+        const navbar = document.querySelector('navbar');
+        menutoggle.classList.toggle('active');
+        navbar.classList('active');
+    }
+</script>
+</body>
+</html>
