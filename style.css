@@ -273,10 +273,9 @@ section{
 }
 
 .blanc .titre-texte{
-    color: white;
+    color: black;
 }
 
-.blanc .titre-texte,
 .blanc p{
     color: white;
 }
@@ -320,7 +319,7 @@ header.sticky .navbar li a{
 
 header.sticky li a:hover{
     color: black;
-    border-bottom: 2px solid bisque;
+    border-bottom: 2px solid black;
 }
 
 @media (max-width: 991px) {
