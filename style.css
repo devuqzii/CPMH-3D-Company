@@ -230,25 +230,25 @@ section{
     object-fit: cover;
 }
 
-.services{
+.Avancement{
     margin-top: -100px;
 }
 
-.services .contenu{
+.Avancement .contenu{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
 }
 
-.services .contenu .box{
+.Avancement .contenu .box{
     width: 350px;
     margin-top: 20px;
     border: 20px solid white;
     box-shadow: 20px 15px 300px rgba(0, 0, 0, 0.8);
 }
 
-.services .contenu .box img{
+.Avancement .contenu .box img{
     position: relative;
     top: 0;
     left: 0;
@@ -257,12 +257,12 @@ section{
     object-fit: cover;
 }
 
-.blog{
+.Finale{
     background-image: url(./images/computer-3174729_960_720.jpg);
     background-size: cover;
 }
 
-.blog .contenu{
+.Finale .contenu{
     display: flex;
     margin-top: 40px;
     width: 100%;
