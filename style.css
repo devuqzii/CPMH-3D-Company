@@ -32,7 +32,7 @@ header{
 }
 
 .logo span{
-    color: black;
+    color: #0A61B8;
 }
 
 .navbar{
@@ -91,7 +91,7 @@ header .navbar li a:hover{
 }
 
 .contenu span{
-    color: black;
+    color: #0A61B8;
 }
 
 .contenu p:nth-child(2){
@@ -176,7 +176,7 @@ section{
 }
 
 .titre-texte span{
-    color: red;
+    color: #0A61B8;
     font-size: 1.5em;
     font-weight: 700px;
 }
@@ -292,7 +292,7 @@ section{
 }
 
 .copyright a{
-    color: black;
+    color: #0A61B8;
     text-decoration: none;
     font-weight: 600;
     font-style: italic;
